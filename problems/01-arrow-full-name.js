@@ -14,8 +14,14 @@ arrowGetFullName(p2); // => 'Charlie Brown'
 
 ***********************************************************************/
 
-let arrowGetFullName = (firstName, lastName) => {
+const arrowGetFullName = (person) => {
+  let arrayName = Object.values(person)
+  let firstName = arrayName[0];
+  let lastName = arrayName[1];
 
+  let fullName = firstName.concat(' ', lastName)
+
+  return fullName
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
