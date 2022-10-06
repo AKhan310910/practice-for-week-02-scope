@@ -11,7 +11,7 @@ arrowRestSum(0); // => 0
 ***********************************************************************/
 
 function arrowRestSum(parameters) {
-
+// hi
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
