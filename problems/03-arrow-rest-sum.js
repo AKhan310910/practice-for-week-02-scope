@@ -10,8 +10,13 @@ arrowRestSum(1, 2, 3, 4, 5, 6, 7, 8, 9); // => 45
 arrowRestSum(0); // => 0
 ***********************************************************************/
 
-function arrowRestSum(parameters) {
+const arrowRestSum = (...parameters) => {
+  let add = 0
+  parameters.forEach((ele) => {
+    add += ele
+  })
 
+return add
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
